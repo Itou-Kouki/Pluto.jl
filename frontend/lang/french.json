@@ -1,13 +1,10 @@
 {
-    
     "t_language_name": "Français",
-    
     "t_my_work": "Mon travail",
     "t_newnotebook": "Créer un <strong>nouveau notebook</strong>",
     "t_welcome_to_pluto": "bienvenue dans {{pluto}}",
     "t_confirmdeletencells": "Es-tu sûr·e de vouloir supprimer {{count}} cellules?",
     "t_FORGET": "OUBLIER",
-    
     "t_live_docs_search_placeholder": "Chercher la documentation...",
     "t_live_docs_body": "<p>Bienvenue dans la <b>documentation en direct</b> ! Guarde cette petite fenêtre ouverte quand tu travailles sur le notebook, et tu auras de la documentation sur tout ce que tu tapes !</p><p>Tu peux aussi taper une recherche en haut.</p><hr><p><em>Toujours bloqué·e ? Voici <a target=\"_blank\" href=\"https://julialang.org/about/help/\">quelques astuces</a>.</em></p>",
     "t_panel_status": "Statut du processus",
@@ -18,8 +15,6 @@
     "t_panel_status_progress_inner": "({{done}}/{{total}})",
     "t_panel_close": "Fermer le paneau",
     "t_panel_popout": "Décrocher le paneau",
-    
-    
     "t_stop_notebook_session": "Fermer la session",
     "t_shut_down_notebook": "Arrêter le notebook",
     "t_start_notebook_in_background": "Démarrer le notebook en arrière plan",
@@ -44,12 +39,8 @@
     "t_cell_indirectly_disabled_in_file_tooltip": "Cette cellule est indirectement marquée comme désactivée. Clique pour en savoir plus !",
     "t_cell_disabled_in_file_explanation": "Cette cellule est actuellement stockée dans le fichier du notebook comme un <em>commentaire</em> Julia, au lieu de <em>code</em>.<br />Ainsi, elle ne s'exécutera pas lorsque le notebook s'exécutera comme un script en dehors de Pluto.<br />Utilise le menu contextuel pour la réactiver",
     "t_cell_indirectly_disabled_in_file_explanation": "Cette cellule est actuellement stockée dans le fichier du notebook comme un <em>commentaire</em> Julia, au lieu de <em>code</em>.<br />Ainsi, elle ne s'exécutera pas lorsque le notebook s'exécutera comme un script en dehors de Pluto.<br />Une cellule en amont <em>désactive cell-ci dans le fichier</em> <b>indirectement</b> ; active {{upstreamLink}} pour affecter cette cellule.",
-    
     "t_language_picker_description": "Changer la langue de l'interface",
     "t_refresh_to_see_language_change_confirm": "Langue changée ! Veux-tu actualiser la page pour voir les changements ?",
-    
-    
-    
     "t_anonymous_function_abbr": "Une (mini-)fonction qui est définie sans le mot-clé 'function', mais en utilisant -> ou 'do'",
     "t_display_complete_type_information_of_this_function_call": "Afficher les informations de type complètes de cet appel de fonction",
     "t_multiple_expressions_in_one_cell": "Plusieurs expressions dans une même cellule",
@@ -93,11 +84,9 @@
     "t_package_could_not_load": "<p>Le paquet <strong>{{package}}.jl</strong> n'a pa pu être chargé car il a échoué à s'initialiser.</p><p>Ce n'est pas bien ! Des choses à essayer :</p>",
     "t_package_could_not_load_things_you_could_try": "<ul><li>Redémarrer le notebook.</li><li>Essayer une version de Julia différente.</li><li>Contacter les développeurs de {{package}}.jl à propos de cette erreur.</li></ul>",
     "t_might_find_info_in_pkg_log": "Tu pourrais trouver des informations utiles dans le log d'installation du package:",
-    
     "t_edit_frontmatter": "Éditer les métadonnées",
     "t_start_presentation": "Démarrer la présentation",
     "t_close": "Fermer",
-    
     "t_export_action_ellipsis": "Exporter...",
     "t_export_category_export": "export",
     "t_export_category_record": "enregistrement",
@@ -110,11 +99,9 @@
     "t_export_card_record": "Enregistrer <em>(aperçu)</em>",
     "t_export_card_record_description": "Capturer tout le notebook,<br />et tous les changements<br />réalisés.",
     "t_export_card_pride_month_message": "Le futur est <strong>queer</strong> !",
-    
     "t_save_notebook_ellipsis": "Sauvegarder le notebook...",
     "t_save_notebook_button_label_when_currently_not_saved": "Choisir",
     "t_save_notebook_button_label_when_currently_saved": "Déplacer",
-    
     "t_process_status_loading_binder": "Chargement de binder...",
     "t_process_status_reconnecting": "Reconnexion...",
     "t_process_status_loading": "Chargement...",
@@ -126,7 +113,6 @@
     "t_process_restart_action_short": "redémarrer",
     "t_process_give_permission_to_run_code": "Exécuter le code du notebook",
     "t_process_running_cells": "Exécution des cellules... ({{done}}/{{total}} terminées)",
-    
     "t_safe_preview": "Aperçu sécurisé",
     "t_safe_preview_not_executed": "Code non-exécuté en <em>aperçu sécurisé</em>",
     "t_safe_preview_not_rendered": "Scripts et styles non affichés en <em>Aperçu sécurisé</em>",
@@ -136,12 +122,10 @@
     "t_safe_preview_body": "Tu lis et édites ce fichier sans exécuter de code Julia.",
     "t_safe_preview_run_this_notebook": "Quand tu sera prêt·e, tu pourras {{run_this_notebook}}.",
     "t_safe_preview_run_this_notebook_link": "exécuter ce notebook",
-    
     "t_instant_feedback_ellipsis": "Feedback instantané...",
     "t_instant_feedback_send": "Envoyer",
     "t_how_can_we_improve": "🙋 Comment pouvons-nous améliorer {{pluto}} ?",
     "t_FAQ": "FAQ",
-
     "t_loading_cells": "Chargement des cellules...",
     "t_reading_hidden_code": "👀 Lecture de code caché",
     "t_enable_and_run_cell": "Activer et exécuter la cellule",
@@ -164,13 +148,8 @@
     "t_jump_cell": "Cette cellule dépend d'une cellule désactivée",
     "t_run_cell": "Exécuter la cellule (Shift + Entrée)",
     "t_help_about_tab_navigation_inside_cell": "Presse <kbd>Esc</kbd> et puis <kbd>Tab</kbd> pour continuer la navigation.",
-
-    
     "t_cell_is_disabled": "Cette cellule est désactivée. {{link}} pour exécuter le code.",
     "t_cell_is_disabled_link": "Activer cette cellule",
-    
-    
-    
     "t_ask_ai_action": "Demander à l'IA",
     "t_ask_ai_action_description": "Demander à l'IA à propos de cette cellule",
     "t_ai_prompt_generator_title": "Générateur de prompt IA",
@@ -181,14 +160,12 @@
     "t_copy_action_description": "Copier dans le presse-papier",
     "t_copy_action_complete": "Copié !",
     "t_copy_header_id_action_description": "Clique pour copier l'URL dans cet en-tête",
-    
     "t_ai_permission_prompt_title": "Utiliser l'IA pour résoudre les erreurs de syntaxe ?",
     "t_ai_permission_prompt_body": "Pluto va envoyer le code de cette cellule vers un service de LLM (grand modèle de language) commercial pour résoudre les erreurs de syntaxe. Le code mis à jour sera exécuté sans confirmation.",
     "t_ai_permission_prompt_body_2": "Le code soumis peut être utilisé anonymement par les développeurs et développeuses de Pluto pour améliorer le service d'IA.",
     "t_dont_ask_again": "Ne plus demander",
     "t_no": "Non",
     "t_yes": "Oui",
-    
     "t_ai_accept_and_close": "Accepter les corrections de syntaxe de l'IA et fermer",
     "t_ai_decline_and_close": "Décliner les corrections de syntaxe de l'IA et fermer",
     "t_ai_accept_and_run": "Accepter & Exécuter",
@@ -199,15 +176,10 @@
     "t_ai_syntax_fix_failed": "Échec de résolution des erreurs de syntaxe: {{error}}",
     "t_ai_fix_syntax_with_ai": "Corriger la syntaxe avec l'IA",
     "t_ai_fix_syntax_with_ai_description": "Essayer de corriger cette erreur de syntax avec un service de LLM (grand modèle de langage)",
-    
     "t_confirm_delete_multiple_cells": "Supprimer {{count}} cellules?",
     "t_confirm_delete_multiple_interrupt_notebook": "Cette cellule est toujours en cours d'exécution - veux-tu interrompre le notebook ?",
     "t_confirm_move_file": "Es-tu sûr·e ? Cela va déplacer \n\n{{old_path}}\n\nvers\n\n{{new_path}} ?",
-    
-    
     "t_oopsie_pls_refresh": "Oups !! Merci d'actualiser ton navigateur et tout ira bien !",
-    
-    
     "t_key_run": "exécuter la cellule",
     "t_key_run_add": "exécuter la cellule et ajouter une cellule en dessous",
     "t_key_submit_all_changes": "soumettre tout les changements",
@@ -223,17 +195,12 @@
     "t_key_ctrl_c": "copier les cellules sélectionnées",
     "t_key_ctrl_x": "couper les cellules sélectionnées",
     "t_key_ctrl_v": "coller les cellules sélectionnées",
-    
     "t_key_autosave_description": "Le fichier notebook se sauvegarde à chaque fois que tu exécutes une cellule.",
     "t_key_selection_description": "Sélectionne plusieurs cellules en traçant une zone de sélection depuis l'espace entre les cellules.",
-    
     "t_key_or": "ou",
-    
     "t_navigate_to_previous_page": "Retour",
-    
     "t_bonds_static_warning": "Tu regardes un document statique. {{run_notebook_action}} pour activer l'interactivité.",
     "t_bonds_static_warning_inner": "Exécuter ce notebook",
-    
     "t_edit_or_run_this_notebook": "<strong>Éditer</strong> ou <strong>exécuter</strong> ce notebook",
     "t_edit_or_run_view_code": "Voir le code",
     "t_edit_or_run_view_code_cancel": "Annuler",
@@ -251,12 +218,10 @@
     "t_edit_or_run_open_the_notebook_file": "Ouvrir le fichier notebook",
     "t_edit_or_run_open_the_notebook_file_description": "Taper le nom du fichier sauvegardé dans la boîte <em>ouvrir</em>.",
     "t_edit_or_run_paste_url_in_the_open_box": "Coller l'URL dans la boîte <em>Ouvrir</em>",
-    
     "t_time_minutes_one": "{{count}} minute",
     "t_time_minutes_other": "{{count}} minutes",
     "t_time_seconds_one": "{{count}} seconde",
     "t_time_seconds_other": "{{count}} secondes",
-    
     "t_frontmatter_title": "Métadonnées",
     "t_frontmatter_description": "Si tu publies ce notebook sur le web, tu peux définir les paramètres ci-dessous pour fournir des métadonnées HTML. Celà est utile pour les moteurs de recherche et les réseaux sociaux.",
     "t_frontmatter_synchronized": "Métadonnées synchronisées ✔\n\nCes paramètres seront utilisés dans les futures exportations.",
@@ -267,48 +232,36 @@
     "t_frontmatter_save": "Sauvegarder",
     "t_frontmatter_preview": "Aperçu",
     "t_frontmatter_language_placeholder": "fr-FR (entre un code de langue BCP 47)",
-    
-    
-    "t_logs_truncated": "{{count}} logs non affichés...",    
+    "t_logs_truncated": "{{count}} logs non affichés...",
     "t_logs_stdout": "Ce texte a été affiché dans le <a href=\"https://en.wikipedia.org/wiki/Standard_streams\" target=\"_blank\">terminal</a> pendant l'exécution de la cellule. Ce n'est pas la <em>valeur de retour</em> de la cellule.",
     "t_logs_click_for_more_info": "Cliquer pour plus d'infos",
-    
     "t_ready_notif_title": "Pluto : notebook prêt",
     "t_ready_notif_body": "✓ Toutes les {{count}} étapes terminées",
     "t_ready_notif": "Notifier quand terminé",
     "t_ready_notif_permission": "Pluto a besoin de ta permission pour afficher les notifications. <strong>Active les notifications</strong> dans les paramètres de ton navigateur pour utiliser cette fonctionnalité.",
-    
     "t_pkg_disables_str": "{{function}} désactive le gestionnaire de packages intégré de Pluto.",
     "t_pkg_stdlib": "{{package}} fait partie de la <em>bibliothèque standard</em> pré-installée de Julia.",
     "t_pkg_will_be_installed": "{{package}} sera installé quand tu exécuteras ce notebook.",
     "t_pkg_is_installing": "{{package}} est en cours d'installation...",
     "t_pkg_is_installed": "{{package}} est installé dans le notebook.",
-    
     "t_pkg_not_found": "Le package {{package}} n'a pas pu être trouvé dans le registre. As-tu fait une faute de frappe ?",
     "t_pkg_will_be_installed_in_notebook": "{{package}} sera installé dans le notebook quand tu exécuteras cette cellule.",
-    
     "t_pkg_installation_can_take": "L'installation peut prendre {{time_install}}.<br/>Après, il se charge en {{time_load}}.",
     "t_pkg_update_packages": "Mettre à jour les packages",
     "t_pkg_update_packages_description": "Veux-tu vérifier les mises à jour et les installer ? Une sauvegarde du fichier notebook sera créée.",
     "t_pkg_currently_busy": "Pkg est actuellement occupé avec d'autres packages... reviens plus tard !",
     "t_pkg_toggle_terminal": "Afficher/masquer la sortie terminal de Pkg",
-    
     "t_pkg_go_to_help": "En savoir plus sur les packages dans Pluto",
-    
     "t_save_all_changes": "Sauvegarder tous les changements",
     "t_save_all_changes_description": "Sauvegarder et exécuter toutes les cellules modifiées",
     "t_file_change_detected": "Changement de fichier détecté, <b>notebook mis à jour</b>",
     "t_file_saved": "Sauvegardé",
-    
     "t_recording_ui_start_recording": "<strong>Commencer l'enregistrement</strong>",
     "t_recording_ui_start_recording_muted": "<strong>Commencer l'enregistrement</strong> (sans audio)",
     "t_recording_ui_stop_recording": "<strong>Arrêter l'enregistrement</strong>",
     "t_recording_ui_back_to_recording": "Retour à <strong>l'enregistrement</strong> {{icon}}",
-    
     "t_presentation_previous_slide": "Diapositive précédente",
     "t_presentation_next_slide": "Diapositive suivante",
-    
-    
     "t_status_names": {
         "workspace": "Configuration de l'espace de travail",
         "create_process": "Démarrage de Julia",
@@ -327,11 +280,9 @@
         "backend_responded": "Ouverture du fichier notebook",
         "backend_notebook_running": "Passage à l'édition en direct"
     },
-    
     "t_tree_show_more_items": "plus",
     "t_table_no_columns": "Ce tableau n'a pas de colonnes",
     "t_table_no_rows": "Ce tableau n'a pas de lignes",
-    
     "t_undo_delete_one": "Cellule supprimée",
     "t_undo_delete_other": "{{count}} cellules supprimées",
     "t_undo_delete_link": "ANNULER",
